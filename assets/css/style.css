@@ -53,7 +53,7 @@ a {
   padding: 0;
 }
 
-.navbar .fst {
+.navbar .first {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -63,14 +63,14 @@ a {
   background-color: var(--semi-dark);
 }
 
-.navbar .fst p {
+.navbar .first p {
   margin: 0;
   color: var(--color-white);
   transition: all 0.4s;
 }
 
 
-.navbar .fst .rth,
+.navbar .first .right,
 .location,
 .phone {
   display: flex;
@@ -85,7 +85,7 @@ a {
   transition: all 0.4s;
 }
 
-.navbar .fst .rth img {
+.navbar .first .right img {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,22 +95,22 @@ a {
   transition: all 0.4s;
 }
 
-.navbar .fst .rth .location:hover img ,
-.navbar .fst .rth .phone:hover img {
+.navbar .first .right .location:hover img ,
+.navbar .first .right .phone:hover img {
   filter: var(--filter-white);
   width: 14px;
   height: 15px;
 }
 
-.navbar .fst .rth .location:hover p,
-.navbar .fst .rth .phone:hover p {
+.navbar .first .right .location:hover p,
+.navbar .first .right .phone:hover p {
 
   color: var(--secondary-color);
   font-size: 15px;
 }
 
 
-.navbar .fst .lft {
+.navbar .first .left {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,21 +132,21 @@ a {
   padding-right: 5px;
 }
 
-.navbar .fst .lft img {
+.navbar .first .left img {
   width: 15px;
   height: 15px;
   filter: var(--filter-primary);
 }
 
-.navbar .fst .lft .discount-rate:hover img,
-.navbar .fst .lft .clock:hover img{
+.navbar .first .left .discount-rate:hover img,
+.navbar .first .left .clock:hover img{
   filter: var(--filter-white);
   width: 14px;
   height: 14px;
 }
 
-.navbar .fst .lft .discount-rate:hover p,
-.navbar .fst .lft .clock:hover p{
+.navbar .first .left .discount-rate:hover p,
+.navbar .first .left .clock:hover p{
   color: var(--secondary-color);
   font-size: 15px;
 }
